@@ -72,9 +72,21 @@
       color: var(--dark-bg);
       transform: scale(1.05);
     }
+
+      h1 {
+    color: #00bcd4;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  button {
+    box-shadow: 0 0 10px rgba(95, 168, 211, 0.6);
+  }
+
   </style>
 </head>
 <body>
+    <div class="container">
   <form action="http://localhost:3000/loginsucess" method="POST">
     <label for="username">Username
       <input type="text" name="username" id="username">
@@ -86,5 +98,6 @@
 
     <input type="submit" value="Finish">
   </form>
+  </div>
 </body>
 </html>

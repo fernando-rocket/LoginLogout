@@ -56,13 +56,35 @@
       color: var(--dark-bg);
       transform: scale(1.05);
     }
+
+    .container {
+  background-color: var(--dark-gray);
+  border: 2px solid var(--soft-blue);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+  h1 {
+    color: #00bcd4;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  button {
+    box-shadow: 0 0 10px rgba(95, 168, 211, 0.6);
+  }
+  
   </style>
 </head>
 <body>
+    <div class="container">
   <h1>Logout realizado</h1>
 
   <form action="/" method="get">
     <button>Login</button>
   </form>
+  </div>
 </body>
 </html>
